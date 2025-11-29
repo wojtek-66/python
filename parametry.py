@@ -25,3 +25,4 @@ print(len(parametr)-1)
 
 
 
+
