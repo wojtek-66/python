@@ -1,8 +1,27 @@
+# Opis problemu (programu):
+# --------------------------
+# Program pobiera parametr od uzytkownika i wypisuje slownie typ tej zmiennej.
+# 1. Program pobiera parametr z lini komend
+# 2. Program wypisuje ilosc parametrow podanych przez uzytkownika.
+# 
+
+
+# Algorytm:
+# --------------------------
+# 1. Podaj ilosc parametrow
+# 2. Wypisz ilosc parametrow
+# 
+
+# Implementacja:
+# --------------------------
+
+# 1. Przypisać parametr do zmiennej (wczytać parametry)
+
 import sys 
 
-sys.argv
+parametr = sys.argv
 
-print(len(sys.argv)-1)
+print(len(parametr)-1)
 
 
 
