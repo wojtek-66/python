@@ -1,23 +1,24 @@
 # Opis problemu (programu):
 # --------------------------
-# Program pobiera liczbę naturalną od uzytkownika i wypisuje slownie typ tej liczby.
-# 1. Dla liczby wiekszej niz 0 wypisz "dodatnia"
-# 2. Dla zera wypisz zero
-# 3. Dla liczby ujemnej wypisz "ujemna"
+# Program pobiera parametry od uzytkownika i zamienia na liczbe calkowita.
+# 1. Dla operacji "+" wykonuje operacje dodawania
+# 2. Dla operacji "-" wykonuje operacje odejmowania
+# 3. Dla operacji "*" wykonuje operacje mnozenia
+# 4. Dla innych operacji wypisuje komunikat o bledzie.
 
 
 # Algorytm:
 # --------------------------
-# 1. PRZYPISZ parametr do zmiennej
-# 2. PRZEKONWERTUJ parametr z ekranu na liczbę
-# 2. JEZELI parametr > 0 TO wypisz "dodatnia"
-# 3. JEZELI parametr = 0 TO wypisz "zero"
-# 4. JEZELI parametr < 0 TO wypisz "ujemna"
+# 1. PRZYPISZ parametry do zmiennych
+# 2. JEZELI parametr = "+" TO wykonaj dodawanie
+# 3. JEZELI parametr = "-" TO wykonaj odejmowanie
+# 4. JEZELI parametr = "*" TO wykonaj mnozenie
+# 5. W PRZECIWNYM RAZIE wypisz komunikat o bledzie
 
 # Implementacja:
 # --------------------------
 
-# 1. Przypisać parametr do zmiennej (wczytać parametr)
+# 1. Przypisać parametry do zmiennych (wczytać parametr)
 
 import sys
 
